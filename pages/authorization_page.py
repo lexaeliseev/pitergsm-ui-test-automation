@@ -3,7 +3,7 @@ from selene import browser, be
 
 class AuthorizationPage:
 
-    def open_authorization_page(self):
+    def open_page(self):
         browser.open('/')
         browser.element('//a[@data-pop="pop-login" and contains(text(), "Вход / Регистрация")]').click()
         return self
