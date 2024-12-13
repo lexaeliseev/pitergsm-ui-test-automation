@@ -1,4 +1,4 @@
-from selene import browser, be, have, query
+from selene import browser, have, query, be
 
 
 class MainPage:
@@ -27,19 +27,42 @@ class MainPage:
         ]
 
     @staticmethod
-    def menu_visible_menu_icon(value):
+    def get_search_item_success():
+        return [
+            ('Macbook', 'Macbook_search'),
+            ('Сертификат', 'Certificates_search'),
+            ('Наушники', 'Headphones_search'),
+            ('Xiaomi', 'Xiaomi_search'),
+            ('Колонка', 'Smart_speaker_search'),
+        ]
+
+    @staticmethod
+    def menu_item_click_and_title_validation(value):
+        """ Метод для проверки работоспособности всех меню в хедере сайта """
+
         menu_items = browser.all('.sh-menu__item')
         for item in menu_items:
             if item.get(query.text) == value:
                 item.click()
                 browser.element('.page-head__title').should(have.text(value))
                 return
-        raise AssertionError
+        raise AssertionError(f'Пункт меню {value} отсутствует')
 
     @staticmethod
-    def assert_menu_item_count(count):
-        menu_items = browser.all('.sh-menu__item')
-        assert len(menu_items) == count
+    def product_search_success(value: str):
+        """ Метод для проверки поиска """
+
+        browser.element('#smart-title-search-input').type(value).press_enter()
+        element_text = browser.element('.prod-card__title')
+        if value.lower() in element_text.get(query.text).lower():
+            return
+        else:
+            raise AssertionError(f'Элемент {value} не найден')
+
+    @staticmethod
+    def product_search_failure(value):
+        browser.element('#smart-title-search-input').type(value).press_enter()
+        browser.element('.not-find-res').should(be.visible).should(have.text('К сожалению, на ваш поисковый запрос ничего не найдено.'))
 
 
 main_menu = MainPage()
