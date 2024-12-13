@@ -1,5 +1,7 @@
 import os
+
 import allure
+
 from pages.authorization_page import authorization
 
 
