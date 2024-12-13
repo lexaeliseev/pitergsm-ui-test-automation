@@ -43,7 +43,7 @@ class MainPage:
     @staticmethod
     def menu_item_click_and_title_validation(value):
         """ Метод для проверки работоспособности всех меню в хедере сайта """
-        with allure.step(f"Проверка наличие и корректный переход при клике на иконку меню: {value}"):
+        with allure.step(f"Проверка наличие и корректный переход при клике на иконку меню = {value}"):
             menu_items = browser.all('.sh-menu__item')
             for item in menu_items:
                 if item.get(query.text) == value:
@@ -55,7 +55,7 @@ class MainPage:
     @staticmethod
     def product_search_success(value: str):
         """ Метод для проверки поиска """
-        with allure.step(f"Проверка успешного поиска по значению: {value}"):
+        with allure.step(f"Проверка успешного поиска по значению = {value}"):
             browser.element('#smart-title-search-input').type(value).press_enter()
             element_text = browser.element('.prod-card__title')
             if value.lower() in element_text.get(query.text).lower():
