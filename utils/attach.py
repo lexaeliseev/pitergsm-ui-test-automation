@@ -12,8 +12,16 @@ def add_screenshot(browser):
 #     allure.attach(log, 'browser_logs', AttachmentType.TEXT, '.log')
 
 def add_logs(browser):
-    log_type = 'browser' if browser.config.driver_name == 'chrome' else 'driver'
-    log = "".join(f'{text}\n' for text in browser.driver.get_log(log_type=log_type))
+    log_types = ['browser', 'driver']
+    logs = []
+
+    for log_type in log_types:
+        try:
+            logs.extend(browser.driver.get_log(log_type))
+        except Exception as e:
+            print(f"Error getting logs for type {log_type}: {e}")
+
+    log = "".join(f'{text}\n' for text in logs)
     allure.attach(log, 'browser_logs', AttachmentType.TEXT, '.log')
 
 
