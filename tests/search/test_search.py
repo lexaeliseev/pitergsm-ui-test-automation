@@ -23,7 +23,7 @@ def test_search_success(value):
 @allure.tag("Smoke")
 @pytest.mark.parametrize(
     'value',
-    ['неудачный поиск', 'мясо мясо мясо'],
+    ['неудачный поиск', 'testtesttest'],
     ids=['invalid_search_term', 'irrelevant_search_term']
 )
 def test_search_failure(value):
