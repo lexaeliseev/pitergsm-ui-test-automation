@@ -38,11 +38,13 @@ def pytest_addoption(parser):
 def load_env():
     load_dotenv()
 
+
 @pytest.fixture(scope="session", autouse=True)
 def setup_browser(request):
     browser_version = request.config.getoption('--browser_version')
     run_mode = request.config.getoption('--run_mode')
     selected_browser = request.config.getoption('--browser')
+    driver = None
 
     if run_mode == 'remote':
         selenoid_capabilities = {
@@ -79,7 +81,8 @@ def setup_browser(request):
     browser.config.driver = driver
     browser.config.window_height = 1080
     browser.config.window_width = 1920
-    browser.config.base_url = os.getenv('URL')
+    # browser.config.base_url = os.getenv('URL')
+    browser.config.base_url = 'https://pitergsm.ru'
 
     yield
 
@@ -90,28 +93,3 @@ def setup_browser(request):
         attach.add_video(browser)
 
     browser.quit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# @pytest.fixture(scope='session', autouse=True)
-# def browser_settings(load_env):
-#     driver_options = webdriver.ChromeOptions()
-#     driver_options.page_load_strategy = 'eager'
-#     browser.config.driver_options = driver_options
-#
-#     browser.config.base_url = os.getenv('URL')
-#     browser.config.window_width = '1920'
-#     browser.config.window_height = '1080'
-#     yield
-#     browser.quit()
