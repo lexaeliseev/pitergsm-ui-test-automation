@@ -56,7 +56,8 @@ class MainPage:
     def product_search_success(value: str):
         """ Метод для проверки поиска """
         with allure.step(f"Проверка успешного поиска по значению = {value}"):
-            browser.element('#smart-title-search-input').type(value).press_enter()
+            browser.element('#smart-title-search-input').type(value)
+            browser.element('.sh-search__btn').click()
             first_element = browser.element('.prod-card__title')
             if value.lower() in first_element.get(query.text).lower():
                 return
