@@ -57,8 +57,8 @@ class MainPage:
         """ Метод для проверки поиска """
         with allure.step(f"Проверка успешного поиска по значению = {value}"):
             browser.element('#smart-title-search-input').type(value).press_enter()
-            element_text = browser.element('.prod-card__title')
-            if value.lower() in element_text.get(query.text).lower():
+            first_element = browser.all('.prod-card__title').first
+            if value.lower() in first_element.get(query.text).lower():
                 return
             else:
                 raise AssertionError(f'Элемент {value} не найден')
