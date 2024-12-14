@@ -67,7 +67,8 @@ class MainPage:
     @staticmethod
     def product_search_failure(value):
         with allure.step("Проверка отображения системной ошибки при неуспешном поиске"):
-            browser.element('#smart-title-search-input').type(value).press_enter()
+            browser.element('#smart-title-search-input').type(value)
+            browser.element('.sh-search__btn').click()
             browser.element('.not-find-res').should(be.visible).should(
                 have.text('К сожалению, на ваш поисковый запрос ничего не найдено.'))
 
