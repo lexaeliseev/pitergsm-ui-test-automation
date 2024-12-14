@@ -59,6 +59,11 @@ def setup_browser(request):
         options = ChromeOptions() if selected_browser == 'chrome' else FirefoxOptions()
         options.capabilities.update(selenoid_capabilities)
 
+        if selected_browser == 'chrome':
+            options.page_load_strategy = 'eager'
+        elif selected_browser == 'firefox':
+            options.page_load_strategy = 'eager'
+
         selenoid_login = os.getenv('SELENOID_LOGIN')
         selenoid_password = os.getenv('SELENOID_PASSWORD')
         selenoid_url = request.config.getoption('--selenoid_url')
