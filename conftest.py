@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from utils import attach
 
-DEFAULT_BROWSER_VERSION = '122.0'
+DEFAULT_BROWSER_VERSION = '125.0'
 DEFAULT_SELENOID_URL = 'selenoid.autotests.cloud/wd/hub'
 
 def pytest_addoption(parser):
