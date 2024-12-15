@@ -65,9 +65,15 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 ##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
 ![TestOps1](https://downloader.disk.yandex.ru/preview/432dba5d5a5975381e191335e06c89f00379e2ec648598f928bce03a28d8c36b/675f3bc7/u3kNpH13M6KlKvErGhDlu3PogqDzGCdN8I3F1MzLghTMpnbNk9MDRTWr5bRfwxfXmgGr3RnjAyt4SiGwOIZM6A%3D%3D?uid=0&filename=testops1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 ##### Пример видео
-<video width="500" height="500" controls>
-  <source src="https://disk.yandex.ru/client/disk/QA%20GURU?idApp=client&dialog=slider&idDialog=%2Fdisk%2FQA%20GURU%2F3452c805-a2b3-4143-92ca-dfb4f7c0c756.mp4?dl=1" type="video/mp4">
+ <iframe src="https://drive.google.com/file/d/1upncyNArLzZIr710-OUNIFHrhwICgVeG/preview" width="500" height="500" allow="autoplay"></iframe>
+
+ <video width="500" height="500" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1upncyNArLzZIr710-OUNIFHrhwICgVeG" type="video/mp4">
+  Ваш браузер не поддерживает тег video.
 </video>
+
+<iframe src="https://drive.google.com/file/d/1upncyNArLzZIr710-OUNIFHrhwICgVeG/preview" width="500" height="500" allow="autoplay"></iframe>
+
 
 
 ---
