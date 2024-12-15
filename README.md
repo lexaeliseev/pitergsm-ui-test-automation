@@ -1,9 +1,5 @@
  <h1 align="center">Автоматизация интернет-магазина <a href="https://pitergsm.ru/">PiterGsm</a></h1>
 
-## Описание
-
----
-
 ### Используемый стек технологий и инструментов
 | Python | Pycharm | GitHub | Pytest | Selenide | Selene | Allure Report | Allure TestOps | Jenkins | Jira | Telegram |
 |--------|---------|--------|--------|----------|--------|---------------|----------------|---------|------|----------|
