@@ -67,12 +67,8 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 ##### Пример видео
  <iframe src="https://drive.google.com/file/d/1upncyNArLzZIr710-OUNIFHrhwICgVeG/preview" width="500" height="500" allow="autoplay"></iframe>
 
- <video width="500" height="500" controls>
-  <source src="https://drive.google.com/uc?export=download&id=1upncyNArLzZIr710-OUNIFHrhwICgVeG" type="video/mp4">
-  Ваш браузер не поддерживает тег video.
-</video>
 
-<iframe src="https://drive.google.com/file/d/1upncyNArLzZIr710-OUNIFHrhwICgVeG/preview" width="500" height="500" allow="autoplay"></iframe>
+
 
 
 
