@@ -11,21 +11,22 @@
 - Проверка успешного поиска товара
 - Проверка отображения ошибки при не успешном поиске товара
 ---
-### Локальный запуск автотестов в браузере Firefox
-
+### Установка зависимостей
 ```
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
+---
+### Локальный запуск автотестов в браузере Firefox
+
+```
 pytest . --browser=firefox
 ```
 ---
 ### Локальный запуск автотестов в браузере Google Chrome
 
 ```
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 pytest . --browser=chrome
 ```
 ---
