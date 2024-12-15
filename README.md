@@ -65,6 +65,9 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 ##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
 ![TestOps1](https://downloader.disk.yandex.ru/preview/432dba5d5a5975381e191335e06c89f00379e2ec648598f928bce03a28d8c36b/675f3bc7/u3kNpH13M6KlKvErGhDlu3PogqDzGCdN8I3F1MzLghTMpnbNk9MDRTWr5bRfwxfXmgGr3RnjAyt4SiGwOIZM6A%3D%3D?uid=0&filename=testops1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 ##### Пример видео
+# Пример вставки видео с YouTube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cUbWwgzBQAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Реализована интеграция с Jira
 ![Jira](https://downloader.disk.yandex.ru/preview/b45588512bf91d56792d6dd8c078132e968c8280b31a6f748548dd36b8c8ee68/675f3e34/_yCxC1HuWAkLDNrwRd3Xsa1_UNysgJnv-CNLfeNfZI9f5ZtNWa5y9OZ-eATOIcd2f8ih-1tTbFGHtIOQ2KtEWg%3D%3D?uid=0&filename=jira.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
