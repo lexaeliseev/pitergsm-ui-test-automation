@@ -58,7 +58,7 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 ---
 ### Реализована интеграция с Allure
 #### Allure отчетность
-![Allure Image 1](https://downloader.disk.yandex.ru/preview/6914152de11bb06d6a528df0f11cce62c1e195f3c94bc19f2df805d175d7e7df/675e156a/SeZw6LKQV5jSyMotMAhzIOVeEBPQsEGUVwXuEjKbY8NYF24gtbJyOBEeju2VA5a6qr9OL_UnnTgQNb4gJ1RnTw%3D%3D?uid=0&filename=allure.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+![Allure Image 1](https://downloader.disk.yandex.ru/preview/f0c32b788ea11ba82f58acf51a0f5fa8782c8c201ab4b2047c45bb70155f893b/675f44bf/SeZw6LKQV5jSyMotMAhzIOVeEBPQsEGUVwXuEjKbY8NYF24gtbJyOBEeju2VA5a6qr9OL_UnnTgQNb4gJ1RnTw%3D%3D?uid=0&filename=allure.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 ![Allure Image 2](https://downloader.disk.yandex.ru/preview/023406a07e9b9a53042d11ce89ed6869c3df8b6e6cb82ee3d18659e627476483/675e15ea/acKVlcKTGYGsTEm2uFweUMnJAGrRo2nR49uPdmkq9SGUVxdG7TaUvm4j-ZgbAVDg7yH0Lv0j7x0XjhmcsQMkfg%3D%3D?uid=0&filename=allure1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 #### Allure TestOps
 ![TestOps](https://downloader.disk.yandex.ru/preview/28da4080ccb3b73b03d651d0ebc3c2ba6a40199d8ce2981573763f590f11f12c/675f3b95/TzZwBuc3ZEepEH1Wa2Q9Wnf7KSO1oRxDG3Vj7NJYyg0yapNWfAvDoFx01U1hDhYY-afSI4Cvqpqxp8v6VOZ0vA%3D%3D?uid=0&filename=testops.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
