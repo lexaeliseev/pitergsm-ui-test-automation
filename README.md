@@ -52,14 +52,30 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
    - **Браузер**: Укажите, какой браузер использовать (Chrome или Firefox).
    - **Комментарий для оповещения в Telegram**: Добавьте комментарий, который будет отправлен в Telegram для оповещения о статусе тестов.
 3. После заполнения всех параметров нажмите кнопку **"Build"**.
-![Параметризация](https://downloader.disk.yandex.ru/preview/a6fd3d72afa2a4be741925a17b248f2b3ce1839641155334bb9ca9ba809b19d7/675e06f5/sj-sFvaekmSvWVCt7oFnc-pTYDwbCMsLM3D-pra5ZYO2wTsJsNk3TODGf7B8WZhYcqQHUjYrTsH3SSqzJVdp3A%3D%3D?uid=0&filename=параметризация.jpeg.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+
+![Параметризация](https://downloader.disk.yandex.ru/preview/4643599df4e9bc232a39f5624df15eea01abdbcbfeaad415c7b24efe4242ae07/675f3fc2/sj-sFvaekmSvWVCt7oFnc-pTYDwbCMsLM3D-pra5ZYO2wTsJsNk3TODGf7B8WZhYcqQHUjYrTsH3SSqzJVdp3A%3D%3D?uid=0&filename=параметризация.jpeg.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+
 ---
+### Реализована интеграция с Allure
+#### Allure отчетность
+![Allure Image 1](https://downloader.disk.yandex.ru/preview/6914152de11bb06d6a528df0f11cce62c1e195f3c94bc19f2df805d175d7e7df/675e156a/SeZw6LKQV5jSyMotMAhzIOVeEBPQsEGUVwXuEjKbY8NYF24gtbJyOBEeju2VA5a6qr9OL_UnnTgQNb4gJ1RnTw%3D%3D?uid=0&filename=allure.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+![Allure Image 2](https://downloader.disk.yandex.ru/preview/023406a07e9b9a53042d11ce89ed6869c3df8b6e6cb82ee3d18659e627476483/675e15ea/acKVlcKTGYGsTEm2uFweUMnJAGrRo2nR49uPdmkq9SGUVxdG7TaUvm4j-ZgbAVDg7yH0Lv0j7x0XjhmcsQMkfg%3D%3D?uid=0&filename=allure1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+#### Allure TestOps
+![TestOps](https://downloader.disk.yandex.ru/preview/28da4080ccb3b73b03d651d0ebc3c2ba6a40199d8ce2981573763f590f11f12c/675f3b95/TzZwBuc3ZEepEH1Wa2Q9Wnf7KSO1oRxDG3Vj7NJYyg0yapNWfAvDoFx01U1hDhYY-afSI4Cvqpqxp8v6VOZ0vA%3D%3D?uid=0&filename=testops.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
+![TestOps1](https://downloader.disk.yandex.ru/preview/432dba5d5a5975381e191335e06c89f00379e2ec648598f928bce03a28d8c36b/675f3bc7/u3kNpH13M6KlKvErGhDlu3PogqDzGCdN8I3F1MzLghTMpnbNk9MDRTWr5bRfwxfXmgGr3RnjAyt4SiGwOIZM6A%3D%3D?uid=0&filename=testops1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+##### Пример видео
+<video width="500" height="500" controls>
+  <source src="https://disk.yandex.ru/client/disk/QA%20GURU?idApp=client&dialog=slider&idDialog=%2Fdisk%2FQA%20GURU%2F3452c805-a2b3-4143-92ca-dfb4f7c0c756.mp4?dl=1" type="video/mp4">
+</video>
 
-### Интеграция с Allure
 
-
-
-
+---
+### Реализована интеграция с Jira
+![Jira](https://downloader.disk.yandex.ru/preview/b45588512bf91d56792d6dd8c078132e968c8280b31a6f748548dd36b8c8ee68/675f3e34/_yCxC1HuWAkLDNrwRd3Xsa1_UNysgJnv-CNLfeNfZI9f5ZtNWa5y9OZ-eATOIcd2f8ih-1tTbFGHtIOQ2KtEWg%3D%3D?uid=0&filename=jira.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+---
+### Внедрена функция отправки уведомлений в Telegram о результатах выполнения тестов
+![Telegram](https://downloader.disk.yandex.ru/preview/29e13194cfbfdd8208cfd5b6acb8fb565caa597cdf8062d4e237d37a790ed906/675f3f35/0dDTxPIZayj6BID4yqwhnmfeNjfxU9svG_i8f4dWSFkYlolTXYmQlQn_a_Qyip_zSl-NtK0_66HCjuSjnLyG6A%3D%3D?uid=0&filename=telegram.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 
 
 
