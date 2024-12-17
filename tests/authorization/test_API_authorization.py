@@ -41,7 +41,6 @@ def test_authorization_with_api(setup_browser):
     with allure.step('Получение авторизационных куки'):
         cookies = result.cookies.get_dict()
 
-
     """ Можно передать корректную куку для авторизации - способ ниже """
     # with allure.step('Подстановка авторизационных куки в браузер'):
     #     browser.open('/')
