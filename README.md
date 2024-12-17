@@ -19,7 +19,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 ---
-### Добавление переменных в .env файл
+### Создание и добавление переменных в .env файл
 ```
 URL = "https://pitergsm.ru"
 LOGIN = ''
