@@ -29,16 +29,11 @@ SELENOID_LOGIN=''
 SELENOID_PASSWORD=''
 ```
 ---
-### Локальный запуск автотестов в браузере Firefox
+### Локальный запуск автотестов в браузере Google Chrome|Firefox
 
 ```
-pytest . --browser=firefox
-```
----
-### Локальный запуск автотестов в браузере Google Chrome
-
-```
-pytest . --browser=chrome
+pytest . --browser=[firefox|chrome]
+# Укажите браузер: chrome (по умолчанию) или firefox
 ```
 ---
 ### Запуск автотестов на удаленном сервере
