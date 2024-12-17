@@ -9,7 +9,7 @@ from pages.authorization_page import authorization
 @allure.feature('Авторизация')
 @allure.tag("Smoke")
 @allure.title('Успешная авторизация на сайте')
-def test_authorization():
+def test_authorization(setup_browser):
     authorization.open_page()
     authorization.fill_login(os.getenv('LOGIN'))
     authorization.fill_password(os.getenv('PASSWORD'))

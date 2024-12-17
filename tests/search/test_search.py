@@ -12,7 +12,7 @@ from pages.main_page import main_menu
     [item[0] for item in main_menu.get_search_item_success()],
     ids=[item[1] for item in main_menu.get_search_item_success()]
 )
-def test_search_success(value):
+def test_search_success(value, setup_browser):
     allure.dynamic.title(f'Проверка успешного поиска на сайте при вводе: {value}')
     main_menu.open_page()
     main_menu.product_search_success(value)
@@ -26,7 +26,7 @@ def test_search_success(value):
     ['неудачный поиск', 'testtesttest'],
     ids=['invalid_search_term', 'irrelevant_search_term']
 )
-def test_search_failure(value):
+def test_search_failure(value, setup_browser):
     allure.dynamic.title(f'Проверка неудачного поиска на сайте при вводе: {value}')
     main_menu.open_page()
     main_menu.product_search_failure(value)
