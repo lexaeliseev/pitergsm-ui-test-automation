@@ -56,18 +56,19 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 ### Реализована интеграция с Allure
 #### Allure отчетность
 **Результаты тестирования доступны в Allure-отчете.**
-<img src="source/allure_report_home.jpg" width="600">
+<img src="source/allure_report.jpg" width="600">
 **При выполнении автотестов к результатам тестов прикрепляются артефакты, например логи, скриншоты и т.д.**
 <img src="source/allure_report_behaviors.jpg" width="600">
 
 #### Allure TestOps
-![TestOps](https://downloader.disk.yandex.ru/preview/28da4080ccb3b73b03d651d0ebc3c2ba6a40199d8ce2981573763f590f11f12c/675f3b95/TzZwBuc3ZEepEH1Wa2Q9Wnf7KSO1oRxDG3Vj7NJYyg0yapNWfAvDoFx01U1hDhYY-afSI4Cvqpqxp8v6VOZ0vA%3D%3D?uid=0&filename=testops.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
-##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
-![TestOps1](https://downloader.disk.yandex.ru/preview/432dba5d5a5975381e191335e06c89f00379e2ec648598f928bce03a28d8c36b/675f3bc7/u3kNpH13M6KlKvErGhDlu3PogqDzGCdN8I3F1MzLghTMpnbNk9MDRTWr5bRfwxfXmgGr3RnjAyt4SiGwOIZM6A%3D%3D?uid=0&filename=testops1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+<img src="source/testops_report.jpg" width="600">
+**При выполнении автотестов к результатам тестов прикрепляются артефакты, например логи, скриншоты и т.д.**##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
+
 ##### Пример видео
 https://github.com/user-attachments/assets/f6e853d1-3e50-47b6-a308-6dc586ce366d
 ### Реализована интеграция с Jira
-![Jira](https://downloader.disk.yandex.ru/preview/b45588512bf91d56792d6dd8c078132e968c8280b31a6f748548dd36b8c8ee68/675f3e34/_yCxC1HuWAkLDNrwRd3Xsa1_UNysgJnv-CNLfeNfZI9f5ZtNWa5y9OZ-eATOIcd2f8ih-1tTbFGHtIOQ2KtEWg%3D%3D?uid=0&filename=jira.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+<img src="source/jira_report.jpg" width="600">
+
 ---
 ### Внедрена функция отправки уведомлений в Telegram о результатах выполнения тестов
 ![Telegram](https://downloader.disk.yandex.ru/preview/29e13194cfbfdd8208cfd5b6acb8fb565caa597cdf8062d4e237d37a790ed906/675f3f35/0dDTxPIZayj6BID4yqwhnmfeNjfxU9svG_i8f4dWSFkYlolTXYmQlQn_a_Qyip_zSl-NtK0_66HCjuSjnLyG6A%3D%3D?uid=0&filename=telegram.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
