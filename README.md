@@ -50,13 +50,16 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
    - **Комментарий для оповещения в Telegram**: Добавьте комментарий, который будет отправлен в Telegram для оповещения о статусе тестов.
 3. После заполнения всех параметров нажмите кнопку **"Build"**.
 
-![Параметризация](https://downloader.disk.yandex.ru/preview/4643599df4e9bc232a39f5624df15eea01abdbcbfeaad415c7b24efe4242ae07/675f3fc2/sj-sFvaekmSvWVCt7oFnc-pTYDwbCMsLM3D-pra5ZYO2wTsJsNk3TODGf7B8WZhYcqQHUjYrTsH3SSqzJVdp3A%3D%3D?uid=0&filename=параметризация.jpeg.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+<img src="source/build_with_parameters.jpg" width="600">
 
 ---
 ### Реализована интеграция с Allure
 #### Allure отчетность
-![Allure Image 1](https://downloader.disk.yandex.ru/preview/f0c32b788ea11ba82f58acf51a0f5fa8782c8c201ab4b2047c45bb70155f893b/675f44bf/SeZw6LKQV5jSyMotMAhzIOVeEBPQsEGUVwXuEjKbY8NYF24gtbJyOBEeju2VA5a6qr9OL_UnnTgQNb4gJ1RnTw%3D%3D?uid=0&filename=allure.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
-![Allure Image 2](https://downloader.disk.yandex.ru/preview/857119d3a21c4160be29a7533f969466de41e7a973d17d0f0b4894950487d9da/675f44ff/acKVlcKTGYGsTEm2uFweUMnJAGrRo2nR49uPdmkq9SGUVxdG7TaUvm4j-ZgbAVDg7yH0Lv0j7x0XjhmcsQMkfg%3D%3D?uid=0&filename=allure1.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+**Результаты тестирования доступны в Allure-отчете.**
+<img src="source/allure_report_home.jpg" width="600">
+**При выполнении автотестов к результатам тестов прикрепляются артефакты, например логи, скриншоты и т.д.**
+<img src="source/allure_report_behaviors.jpg" width="600">
+
 #### Allure TestOps
 ![TestOps](https://downloader.disk.yandex.ru/preview/28da4080ccb3b73b03d651d0ebc3c2ba6a40199d8ce2981573763f590f11f12c/675f3b95/TzZwBuc3ZEepEH1Wa2Q9Wnf7KSO1oRxDG3Vj7NJYyg0yapNWfAvDoFx01U1hDhYY-afSI4Cvqpqxp8v6VOZ0vA%3D%3D?uid=0&filename=testops.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
 ##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
