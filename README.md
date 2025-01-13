@@ -71,4 +71,4 @@ https://github.com/user-attachments/assets/f6e853d1-3e50-47b6-a308-6dc586ce366d
 
 ---
 ### Внедрена функция отправки уведомлений в Telegram о результатах выполнения тестов
-![Telegram](https://downloader.disk.yandex.ru/preview/29e13194cfbfdd8208cfd5b6acb8fb565caa597cdf8062d4e237d37a790ed906/675f3f35/0dDTxPIZayj6BID4yqwhnmfeNjfxU9svG_i8f4dWSFkYlolTXYmQlQn_a_Qyip_zSl-NtK0_66HCjuSjnLyG6A%3D%3D?uid=0&filename=telegram.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=768x768)
+<img src="source/telegram_report.jpg" width="600">
