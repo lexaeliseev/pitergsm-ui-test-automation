@@ -62,6 +62,7 @@ pytest . --run_mode=remote --browser=[chrome|firefox] --browser_version=125.0
 
 #### Allure TestOps
 <img src="source/testops_report.jpg" width="600">
+
 ##### При выполнении автотестов к результатам тестов прикрепляются логи, скриншоты, HTML-страница и видеозапись прохождения кейса.
 
 ##### Пример видео
